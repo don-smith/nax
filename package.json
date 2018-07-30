@@ -1,0 +1,19 @@
+{
+  "name": "nax",
+  "version": "0.1.0",
+  "description": "Naughts and crosses",
+  "main": "dist/index.js",
+  "repository": "https://github.com/don-smith/nax",
+  "author": "Don Smith <don@antiantonym.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "go": "yarn build && node dist"
+  },
+  "dependencies": {
+    "@types/promptly": "^1.1.28",
+    "promptly": "^3.0.3",
+    "typescript": "^2.9.2"
+  }
+}
